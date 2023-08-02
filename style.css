@@ -54,41 +54,34 @@
  /* banner style */
  .banner-container{
     max-width: 100%;
- }
- 
-.flower-box-container{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    
+    margin-bottom: 130px;
 }
 .banner-heading-text{
-    margin-top: 100px;
-    m
+    text-align: center;
+    margin-top: 120px;
 }
 .flower-box-title{
     color: #272727;
     text-align: center;
     font-family: Lato;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    
- }
+
+}
 .flower-box-description{
     color: rgba(39, 39, 39, 0.60);
-    width: 500px;
     text-align: center;
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
-    line-height: 30px;
-    font-weight: 400;
-    padding-top: 20px;
-    margin-bottom: 50px;
+    width: 500px;
+    padding: 20px 30px;
+    margin: auto;
+}
 
-   
+.flower-box-container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 100px 150px;
 }
 .box1{
     width: 464px;
@@ -110,7 +103,6 @@
     width: 464px;
     height: 538px;
     background-color: rgba(71, 125, 17, 0.15);
-    
     border-radius: 300px 300px 0px 0px;
     text-align: center;
   
@@ -131,5 +123,76 @@
     line-height: 35px;
     margin-top: 30px;
     text-align: center;
+    margin-bottom: 80px;
     
 }
+
+/* support section style */
+.support-section-background{
+    max-width:  1440px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 20px 150px;
+}
+.support-icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.support-icon{
+    text-align: center;
+    margin: 80px 0px;
+}
+.icon-title{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 20px;
+}
+.icon-image{
+    margin-bottom: 25px;
+}
+/* hot deal section style*/
+.hot-deal-section{
+    max-width: 1922px;
+    background-color: #e9e6e6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+    
+}
+.hot-deal-text{
+    margin-left: 150px;
+    text-align: center;
+}
+.hot-deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.hot-deal-img{
+    margin: 100px 100px;
+}
+/* instagram style */
+.instagram-container{
+    margin: 130px;
+}
+.insta-image-container{
+    display: flex;
+    justify-content: center;
+    margin: 0px 240px;
+    gap: 20px;
+    
+
+    
+}
+.instagram-image-showing{
+    margin-top: 40px;
+}
+
+/* get the deal */
+.get-the-deal-container{
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+}
+
