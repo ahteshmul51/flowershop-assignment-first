@@ -6,20 +6,21 @@
 /* nav section  */
 .nav-container{
     max-width: 100%;
-    height: 850px;
-    background-color:  rgba(222, 218, 219, 0.1);
+    height: 800px;
+    background-color:  rgba(222, 218, 219, 0.3);
     display: flex;
-    justify-content: ;
-    gap: 10px;
+    
+    
 }
 .nav-text-section{
     margin-top: 200px;
     margin-left: 150px;
+    margin-right: 100px;
 }
 .nav-title{
     color: #272727;
     font-family: Lato;
-    font-size: 80px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -43,11 +44,92 @@
     text-align: center;
 }
 .nav-image{
-    margin-right: 50px;
-    margin-left: 100px;
+    
 }
 .nav-img-size{
     width: 630px;
     height: 800px;
 
+}
+ /* banner style */
+ .banner-container{
+    max-width: 100%;
+ }
+ 
+.flower-box-container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+.banner-heading-text{
+    margin-top: 100px;
+    m
+}
+.flower-box-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+ }
+.flower-box-description{
+    color: rgba(39, 39, 39, 0.60);
+    width: 500px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-bottom: 50px;
+
+   
+}
+.box1{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+  
+}
+.box2{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+  
+}
+.box3{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(71, 125, 17, 0.15);
+    
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+  
+}
+.banner-image-size{
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+   
+}
+.box-flower-name{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 30px;
+    text-align: center;
+    
 }
